@@ -1,0 +1,83 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=500&q=60.jpg);
+	background-size: cover;
+
+}
+.navbar {
+	background-color: #C08056;
+	overflow: hidden;
+}
+.navbar a {
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+}
+.navbar a:hover {
+	background-color: white;
+	color:red;
+}
+.bestword p.firstword {
+	text-align: center;
+	margin-top: 300px;
+	font-size: 30px;
+	color: black;
+	font-style: italic;
+}
+.bestword p.startword {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	color: black;
+}
+.learn button.click{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #19E6BD;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+  margin-left: 550px;
+  margin-bottom: 100px;
+
+}
+.learn button.click:hover {
+	background-color: #FE0101;
+}
+
+.learn button.click:active {
+  background-color: #8801FE;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+footer {
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+footer nav a {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+footer nav a:hover {
+	border-bottom: 1px solid white;
+}
+footer div a{
+	margin-top: 20px;
+}
+footer p {
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}

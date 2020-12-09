@@ -1,0 +1,94 @@
+.login{
+	width: 350px;
+	height: 400px;
+	border: 1px solid grey;
+	margin-top: 10px;
+	margin-left: 500px;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.login input{ 
+	width: 70%;
+    padding: 10px 10px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    size: 8px;
+    }
+.login button {
+			text-align: center;
+			width: 70%;
+			margin: 8px 8px;
+			margin-left: 50px;
+			border: 1px solid #0095f6;
+			border-radius: 5px;
+			color:white;
+			padding: 8px 8px;
+			font-size: 12px;
+			background-color:#0095f6;
+}
+.login p {
+	text-align: center;
+}
+.login a[name=log] {
+	text-decoration: none;
+	size: 8px;
+	color: #385185;
+	
+}.login a[name=pass] {
+	margin-left: 130px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #385185;
+}
+.fa {
+  margin-left:50px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #385185;
+}
+.sign {
+	width: 350px;
+	height: 50px;
+	border: 1px solid grey;
+	margin-top: 10px;
+	margin-left: 500px;
+}
+.sign h4{
+	text-align: center;
+}
+.sign a{
+	text-decoration: none;
+}
+p[name=get]{
+	text-align: center;
+}
+button[name=getiphone]{
+	width: 100px;
+	height: 40px;
+	background:url(https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png) no-repeat;
+	cursor: pointer;
+}
+img[name=iphone] {
+	margin-left: 540px;
+}
+footer{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+footer a {
+	color:#385185;
+	margin: 12px;
+	font-size: 10px;
+	text-decoration: none;
+}
+footer a[name=last]{
+	margin-right: 200px;
+}

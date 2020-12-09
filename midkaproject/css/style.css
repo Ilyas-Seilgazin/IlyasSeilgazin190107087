@@ -1,0 +1,367 @@
+  * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body,html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	vertical-align: center;
+	border-bottom: 10px groove #ed6f37;
+	border-radius: 0px 0px 30px 30px;
+
+}
+.navbar .links a.logo {
+	font-family: Forte, Helvetica, sans-serif;
+	font-size: 30px;
+	float: left;
+	text-decoration: none;
+	margin: 10px 15px;
+}
+header a {
+  color: #ed6f37;
+}
+.navbar .links a.simple{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	position: relative;
+	margin: 10px 15px;
+	float: left;
+	padding: 10px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .links a:hover {
+	color: red;
+}
+.navbar .links a:active {
+	color: white;
+	background: black;
+}
+.navbar .log a {
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	padding: 8px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 10px 30px ;
+}
+.navbar .log a.sign {
+	background: #ed6f37;
+	color: white;
+	border-radius: 5px;
+}
+.navbar .log a.sign:hover {
+	border: 1px solid black;
+}
+
+
+.logfield {
+	width: 400px;
+	height: 450px;
+	float: right;
+	margin: 60px 70px;
+  background-color: rgba(255,255,255,0.9);
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-bottom: 0em;
+}
+.logfield h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+  color: rgba(247,111,55,1);
+}
+.logfield p {
+	margin: 10px 20px;
+  color: rgba(247,111,55,1)
+}
+.logfield input{
+	margin: 10px 20px;
+	width: 320px;
+	height: 40px;
+	border: 1px solid grey;
+	border-radius: 2px;
+	padding: 0px 20px;
+}
+.logfield button {
+	margin: 10px 20px;
+	width: 365px;
+	height: 45px;
+	background-color: #ed6f37;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.logfield button:active {
+	opacity: 0.8;
+}
+.logfield p.bysign{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.logfield p.bysign a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.linkicons img {
+	width: 50px;
+	height: 40px;
+	margin: 30px 20px;
+}
+
+span{
+ opacity: 0;
+ transition: all 0.5s ease;
+}
+span.fade{
+ opacity: 1;
+}
+
+img {
+  border: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+.conteiner h3 , p , h4 {
+  color: #fff;
+}
+
+.conteiner h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Measure-Regular';
+}
+
+.conteiner p {
+  font-family: 'Measure-Thin';
+  font-weight: 100;
+  font-size: 1.3em;
+}
+.conteiner h3 {
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#girl-sun {
+  height: 80%;
+  width: 100%;
+  background-image: url(../images/girl-sun.jpg);
+}
+
+.imag {
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+#phone-glance {
+  height: 60%;
+  width: 100%;
+  background-image: url(../images/phone-glance.jpg);
+}
+
+.conteiner {
+  height:50%;
+  width: 100%;
+}
+
+.conteiner {
+  background-color: #ed6f37;
+  padding-top: 2.5em;
+}
+
+#center {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 1.5em;
+
+}
+
+#center_h3 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'Measure-Regular';
+  color: #fff;
+}
+
+.icons {
+  width:100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.icons div {
+  width: 33.333333333%;
+
+  float: left;
+}
+
+#icon-phone {
+  height: 5em;
+  width: auto;
+  margin-bottom: 2em;
+}
+
+#icon-dash {
+  width: 7.3em;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+#icon-help {
+  width: 7.5em;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+}
+
+.main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.top_wr {
+  margin-bottom: .8125rem;
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+a {
+  color: #4b35ef;
+  text-decoration: none;
+  background-color: initial;
+}
+
+.linkArea a {
+  color: #323233;
+}
+
+.about {
+  display: block;
+}
+
+.linkArea a {
+  margin-bottom: .5em;
+}
+
+.linkArea {
+  padding-bottom: 2.5em;
+}
+
+.icon_a a{
+   margin-right: .4rem;
+}
+
+.header_3 {
+  font-size: .875rem;
+  line-height: 1.75rem;
+  color: #323233;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main h3 {
+  font-weight: 700;
+  font-family: 'Measure-Regular';
+}
+
+.linkSection {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+}
+
+.linkSection a {
+  margin-bottom: .5em;
+}
+.a_linkSection {
+  text-decoration: none;
+  color: #323233;
+}
+
+.linkSectionLanguage {
+  display: grid;
+  grid-template-rows: repeat(7, 1.5rem);
+  grid-auto-flow: column;
+}
+
+.first {
+  float: left;
+  width: 20%;
+}
+
+.Catalog {
+  margin-top: 2em;
+  width: 20%;
+  float: left;
+}
+
+.language {
+  width: 40%;
+  float: left;
+}
+
+.main_div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+
+.language {
+  margin-top: 2rem;
+}
+
+.line {
+  margin-top: 2em;
+  border-top: 1px solid #dddce0;
+}
+
+.contentContainer {
+  padding-left: 2rem;
+  padding-right: 2rem
+}
+
+.made_div {
+  padding-bottom: .75rem;
+  padding-top: .75rem;
+  width: 100%;
+  text-align:right;
+}
+
+.hello {
+  filter: saturate(7);
+  min-width: 1.75em;
+  text-align: center;
+}
+
