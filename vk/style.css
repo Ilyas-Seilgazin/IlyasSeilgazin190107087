@@ -1,0 +1,160 @@
+.search{
+			background: #5181b8;
+		}
+		.search input[type=text]:focus{
+			background-color: white;
+			color:black;
+		}
+		.search input[type=text] {
+			background-color: #2a5885;
+			border: none;
+		}
+		#login {
+			height: 200px;
+			width: 300px;
+			border: 1px solid grey;
+			margin-left: 900px;
+			background-color: white;
+
+		}
+		#login button{
+			margin-left: 8px;
+			text-align: center;
+			border: none;
+			color:white;
+			padding: 12px 20px;
+			font-size: 14px;
+			width: 35%;
+			background-color: #5181b8;
+		}
+		#login a {
+			margin-left: 20px;
+			font-size: 14px;
+			color: #5181b8;
+			text-decoration: none;
+		}
+		#login input{ 
+			width: 95%;
+            padding: 12px 20px;
+            margin: 8px 8px;
+            box-sizing: border-box;
+            background-image: linear-gradient(to right,white,#5181b8);
+        }
+		#first {
+			height: 450px;
+			width: 300px;
+			border: 1px solid grey;
+			margin-top: 20px;
+			margin-left: 900px;
+			background-color: white;
+
+		}
+		#first input[name] {
+		 	font-size: 15px;
+		 	margin: 5px 10px;
+		 	padding: 5px 5px;
+		 	width: 90%;
+		 }
+		 #first p{
+		 	margin-left: 10px;
+		 	font-size: 12px;
+		 }
+		 #first select[name=day]{
+		 	margin-left: 10px;
+		 }
+		 #first select[name=gender]{
+		 	margin-left: 10px;
+		 }
+		 #first button[name=reg]{
+			margin-left: 10px;
+			text-align: center;
+			border: none;
+			color:white;
+			padding: 12px 20px;
+			font-size: 14px;
+			width: 92%;
+			background-color:#3dcc4b;
+		}
+		#first button[name=face]{
+			margin-left: 10px;
+			text-align: center;
+			border: none;
+			color:white;
+			padding: 12px 20px;
+			font-size: 14px;
+			width: 92%;
+			background-color:#2b79c7;
+		}
+
+		#first p.here{
+			text-align: center;
+			font:20px Arial, sans-serif;
+		}
+		#first p.sign{
+			text-align: center;
+			font:15px Arial, sans-serif;
+			text-decoration-color: grey;
+		}
+		p.and{
+			margin-left: 350px;
+		}
+		p.install{
+			margin-left: 180px;
+		}
+		h2{
+			margin-left: 300px;
+		}
+		.search input[type=text]{
+			margin-left: 300px;
+			text-decoration-color: white;
+			padding: 7px;
+			border-radius: 50px;
+			font-size: 12px;
+			border: 2px solid blue;
+			width: 20%;
+			background: #224b7a;
+		}
+		img{
+			margin-left: 250px;
+			margin-top: 50px;
+			width: 400px;
+			height: 550px;
+			border: 2px solid black;
+			border-radius: 5px;
+		}
+		.for a.phone{
+			margin-left: 100px;
+			text-decoration: none;
+			color: #224b7a;
+			font:15px Arial, sans-serif;
+		}.for a.android{
+			margin-left: 300px;
+			text-decoration: none;
+			color: #224b7a;
+			font: 15px Arial, sans-serif;
+		}
+		.last {
+			width: 300px;
+			height: 100px;
+			margin-top: 20px;
+			margin-left: 900px;
+			background-color: white;
+			border: 1px solid grey;
+
+		}
+		.last p{
+			text-align: center;
+			font-size: 12px;
+		}
+		.last a{
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			margin-left: 120px;
+		}
+		a.linkes{
+			margin: 5px 60px;
+		}
+		span.radio{
+			display:inline-flex;
+		}
