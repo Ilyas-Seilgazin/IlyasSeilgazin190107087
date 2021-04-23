@@ -1,0 +1,45 @@
+import random
+
+
+print('Добро пожаловать в числовую угадайку')
+userInput = input('Enter the right range number:'+'\n')
+number = random.randint(1, int(userInput))
+
+def is_valid(enter):
+    return enter.isdigit() and 1 <= int(enter) <= 100
+
+flag = True    
+user = input('Enter a number between 1 and ' + userInput + '\n')
+counter = 1 
+while(flag):
+    
+    if is_valid(user):
+        guess = int(user)
+        if guess > number:
+            print('Greater than a hidden number. Try again!')
+            counter += 1
+            user = input()
+        elif guess < number:
+            print('Less than a hidden number. Try again!')
+            counter += 1
+            user = input()
+        else:
+            print('Wonderful! You found a hidden number.')
+            print('You found it after', counter, 'attempts. Would you like to play again?')
+            answer = input()
+            if answer == 'Yes':
+                userInput = input('Enter the right range number:'+'\n')
+                number = random.randint(1, int(userInput))
+                user = input('Enter a number between 1 and ' + userInput + '\n')
+            else:
+                flag = False
+                print('It was an exciting!')
+            
+            
+            
+    else:
+        print('А может быть все-таки введем целое число от 1 до 100?'+'\n')
+        user = input()
+        
+        
+print('Спасибо, что играли в числовую угадайку. Еще увидимся...')
